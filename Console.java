@@ -11,7 +11,7 @@ public class Console {
 	public static void main(String[] args) {
 		
 		try {
-			jda = JDABuilder.createDefault("ODg5NjAzMTY4NDI0NTcwOTcy.YUjpgw.V9dXUh8pyZ3JWMQMwtpZhR1oS6A").build();
+			jda = JDABuilder.createDefault("HERE YOUR DISCORD TOKEN").build();
 		} catch (LoginException e) {
 			System.out.println("token ist falsch!!!!");
 		}
